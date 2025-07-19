@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    Uri="https://yossec.github.io/FirmeasyDemo/app.appinstaller"
+    Version="1.0.2.0"
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2018"
+    >
+
+    <MainPackage
+        Uri="https://github.com/Yossec/FirmeasyDemo/releases/download/v1.0.0.0/Firmeasy.msix"
+        Version="1.0.2.0"
+        Publisher="CN=TuAppFirmaCertificado"
+        Name="GirasolPESCRL.FirmEasyDemo"
+        ProcessorArchitecture="x64"
+        />
+
+    <UpdateSettings>
+        <OnLaunch 
+            HoursBetweenUpdateChecks="1"
+            UpdateBlocksActivation="false"
+            ShowPrompt="true" />
+        <AutomaticBackgroundTask />
+        <ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+    </UpdateSettings>
+
+</AppInstaller>
