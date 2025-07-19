@@ -1,0 +1,28 @@
+/privado/
+
+# === Archivos temporales y del sistema operativo ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === Editor settings ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Caché o build opcional ===
+dist/
+build/
+out/
+
+# === Archivos ocultos generados por navegadores o herramientas ===
+.sass-cache/
+.cache/
+npm-debug.log*
+
+# === Archivos de configuración local o secretos (si los usas) ===
+.env
+.env.*
