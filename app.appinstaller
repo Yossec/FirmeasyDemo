@@ -6,10 +6,10 @@
     >
 
     <MainPackage
-        Uri="https://github.com/Yossec/FirmeasyDemo/releases/download/v1.0.0.0/Firmeasy.msix"
+        Uri="https://github.com/Yossec/FirmeasyDemo/releases/download/v1.0.0.0/Firmeasy_v1.msix"
         Version="1.0.2.0"
         Publisher="CN=TuAppFirmaCertificado"
-        Name="GirasolPESCRL.FirmEasyDemo"
+        Name="GirasolPESCRL.FirmEasyApp"
         ProcessorArchitecture="x64"
         />
 
